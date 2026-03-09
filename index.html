@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>Lauren Chilcote</h1>
+    <p class="subtitle">A brief history</p>
+  </header>
+
+  <main class="timeline">
+    <div class="timeline-line" aria-hidden="true"></div>
+
+    <!-- Event 1: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -1.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: 2deg">
+          <img src="img/born-in-germany.jpg" alt="Baby Lauren in Germany">
+        </div>
+        <h3 class="card-title">Born in Germany</h3>
+        <p class="card-description">I was born in Landstuhl, Germany and spent my first two years of life there.</p>
+      </div>
+    </div>
+
+    <!-- Event 2: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 1.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: -1.5deg">
+          <img src="img/11-moves.jpg" alt="Lauren as a child in traditional Korean dress">
+        </div>
+        <h3 class="card-title">11 Moves in 17 Years</h3>
+        <p class="card-description">Why I struggle to answer the question, "Where are you from?". Repeatedly making and leaving friends was difficult, but I got to travel the country and see the world.</p>
+        <p class="card-insight">Being the outsider made me a skilled observer and taught me empathy.</p>
+      </div>
+    </div>
+
+    <!-- Event 6: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 1.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: -1deg">
+          <img src="img/high-school.jpg" alt="Lauren and friends in high school" style="transform: scale(1.3);">
+        </div>
+        <h3 class="card-title">High School</h3>
+        <p class="card-description">I attended 3: in Germany, Arizona, and Florida. I was a good student, taking on AP classes and regularly showing up on honor rolls.</p>
+        <p class="card-description">I spent my free time playing guitar, collaging, thrifting & upcycling clothes, and DIY screenprinting. I also worked part-time: first in food service, then retail.</p>
+        <p class="card-insight">IMO everyone should be required to work in the service industry!</p>
+      </div>
+    </div>
+
+    <!-- Event 7: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -1deg">
+        <div class="card-polaroid" style="--polaroid-rotation: 2deg">
+          <img src="img/college.jpg" alt="Lauren in college" style="object-position: center 26px; aspect-ratio: 427 / 500;">
+        </div>
+        <h3 class="card-title">College</h3>
+        <p class="card-description">A scholarship got me a (nearly) free ride to Florida State University. I struggled with what to focus on and would've benefitted from a gap year, but that was a non-starter in my family.</p>
+        <p class="card-description">I started out declaring International Relations, then switched to Apparel Design &amp; Technology with a minor in German.</p>
+      </div>
+    </div>
+
+    <!-- Event 8: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 2deg">
+        <div class="card-polaroid" style="--polaroid-rotation: -2deg">
+          <img src="img/nyc.jpg" alt="Lauren in NYC">
+        </div>
+        <h3 class="card-title">I ♥ NYC</h3>
+        <p class="card-description">I moved to Brooklyn, NY immediately after graduating and spent 13 wonderful years there. It's what now feels like "home" to me.</p>
+        <p class="card-insight">I once lived in a loft (seen above) with 8 people +1 cat under the JMZ train.</p>
+      </div>
+    </div>
+
+    <!-- Event 9: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -1.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: 1.5deg">
+          <img src="img/apparel-job.jpg" alt="Group hug at the apparel job">
+        </div>
+        <h3 class="card-title">Apparel production</h3>
+        <p class="card-description">I secured my first job as a Color Analyst & Production Coordinator to pay the bills, then set about discovering what I really wanted to do.</p>
+        <p class="card-description">My company had a graphic design team and I started teaching myself Adobe Illustrator and producing work. When a role opened up, I made my case and got the job. I then hustled my way from junior designer to Assistant Art Director.</p>
+        <p class="card-insight">I loved the creative + technical work, but eventually grew tired of year-long production cycles and started teaching myself to code.</p>
+      </div>
+    </div>
+
+    <!-- Event 10: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 0.5deg">
+        <h3 class="card-title">The Pivot</h3>
+        <p class="card-description">I joined a small (10 person) startup in Manhattan after making my case once more: here's what I <em>can</em> do, and here's everything I'm doing to figure the rest out—throw me in.</p>
+        <p class="card-description">I delivered design work, wrote front-end code (vanilla HTML, Sass, JS and used frameworks like Angular), and filled PM gaps (before knowing this was a role).</p>
+      </div>
+    </div>
+
+    <!-- Event 11: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -2deg">
+        <div class="card-polaroid" style="--polaroid-rotation: 2.5deg">
+          <img src="img/buffer.png" alt="Buffer product screenshot" style="aspect-ratio: 1402 / 1130;">
+        </div>
+        <h3 class="card-title">Buffer</h3>
+        <p class="card-description">After 4 years in my previous role, I joined this globally distributed, async-first team to lead design on its flagship product, Publish. I led a redesign of the core calendar experience, contributed to the design system, and shaped how Design operated.</p>
+        <p class="card-insight">"Radical transparency" is one of Buffer's core values, which continues to be a guiding principle for my work.</p>
+      </div>
+    </div>
+
+    <!-- Event 12: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 1deg">
+        <div class="card-polaroid" style="--polaroid-rotation: -2deg">
+          <img src="img/mmhmm.png" alt="mmhmm product screenshot" style="aspect-ratio: 1136 / 638; transform: scale(1.3);">
+        </div>
+        <h3 class="card-title">mmhmm</h3>
+        <p class="card-description">Yes, that is (was) the actual name of the company. They ultimately rebranded to Airtime. Think Loom &amp; Zoom, but more creative.</p>
+      </div>
+    </div>
+
+    <!-- Event 13: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -0.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: 1deg">
+          <img src="img/webflow-logo.jpeg" alt="Webflow logo" style="aspect-ratio: 3600 / 1890;">
+        </div>
+        <h3 class="card-title">Webflow</h3>
+        <p class="card-description">I joined to work on a product I admired and to sharpen my craft. Am I just a big fish in a small pond, or can I hang with the big (design) dogs?</p>
+        <p class="card-description">Almost 4 years in I've grown in innumerable ways. The company has more than doubled in size and ARR, and grown from a website builder to a multi-product platform.</p>
+        <p class="card-insight">Webflow has indeed sharpened my craft, shaped my leadership style, and expanded my capacity for systems thinking.</p>
+      </div>
+    </div>
+
+    <!-- Event 14: Right -->
+    <div class="timeline-event right" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: 1.5deg">
+        <div class="card-polaroid" style="--polaroid-rotation: -1deg">
+          <img src="img/webflow.jpg" alt="Lauren and Webflow colleagues" style="object-position: center 40px; aspect-ratio: 2497 / 3329;">
+        </div>
+        <h3 class="card-title">Leadership</h3>
+        <p class="card-description">After many years as an IC I transitioned to a formal leadership role, leading design on the Collaborate pillar and managing a team of 5.</p>
+        <p class="card-description">We've delivered realtime collaboration, granular access controls, publishing workflows, and are cooking up an exciting new agentic 0-1 product.</p>
+        <p class="card-insight">I've had the distinct pleasure of working with this exceptional group of humans.</p>
+      </div>
+    </div>
+
+    <!-- Event 15: Left -->
+    <div class="timeline-event left" data-animate>
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card" style="--card-rotation: -1deg">
+        <h3 class="card-title">Designing &amp; tinkering</h3>
+        <p class="card-description">This throughline in my life persists, and the recent explosion of new tools and workflows has injected new energy into my work.</p>
+        <p class="card-description">In front of my computer, I'm building with Claude Code + Cursor, experimenting with AI agents, and soaking up podcasts, videos, and articles to stretch my thinking.</p>
+        <p class="card-description">Outside of technical pursuits, I love spending time on slow analog creation: knitting, sewing, pottery, writing, and papier mache.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="page-footer">
+    <p>to be continued...</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
